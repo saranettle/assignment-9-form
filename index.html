@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Ching Shih Quiz</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+
+
+<div class="container">
+  <div class= "row">
+    <section class= "col-sm-12 col-md-4">
+
+    	<h1>Ching Shih: The Widow Pirate</h1>
+
+      <p> Ching Shih (1775-1844) is one of the world’s most notorious pirates, terrorizing the South China Sea in the early 19th century. She commanded a fleet of over three hundred ships and between 20,000-40,000 pirates. Other estimates indicate that her fleet may have included as many as 1800 ships with 80,000 men, women, and children at her command. Undefeated by the British, Portuguese, and the Qing dynasty, she was one of the few pirates to retire peacefully from piracy. To complete the following quiz, please read the Wikipedia page about her life <a href="https://en.wikipedia.org/wiki/Ching_Shih">here</a>.</p>
+
+  </section>
+
+  <section class="col-sm-12 col-md-8">
+
+    <h2>Test Your Knowledge</h2>
+
+    <form>
+
+      <div class="form-group">
+        <label for="your_name" class="control-label">
+          Name
+        </label>
+        <input class="form-control" type="text" name= "name" id= "your_name" >
+      </div>
+
+      <div class="form-group">
+        <label for="q_fleet" class="control-label" >
+          What was the name of Ching Shih's fleet?
+        </label>
+        <input class="form-control" type="text" name="fleet" id="q_fleet">
+      </div>
+
+      <div class="form-group">
+        <label>
+          How did Ching Shih end her career as a pirate?
+        </label>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="career" value="brothel" id= "q_career1" >
+              A. Ching Shih fleed to Vietnam and opened a brothel.
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+            <input type="radio" name="career" value="opium" id= "q_career2">
+            B. Ching Shih gave up pirating in exchange for trading opium.
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="career" value="negotiated" id= "q_career3">
+            C. Ching Shih negotiated with Chinese officials to keep her loot in exchange for surrender.
+          </label>
+        </div>
+
+        <div class="radio">
+          <label>
+            <input type="radio" name="career" value="amnesty" id= "q_career4">
+            D. The Chinese offered all pirates amnesty in an effort to defeat Ching Shih.
+          </label>
+        </div>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="career" value="CandD" id= "q_career5">
+                E. C and D are the correct answers.
+              </label>
+            </div>
+    </div>
+
+      <div class="form-group">
+        <label>
+          Which of the following actions would earn a pirate under Ching Shih a beheading?
+        </label>
+
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="punishment" value="giving_orders" id= "questionb1">
+                A pirate giving orders that did not come from Ching Shih.
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="punishment" value="raping" id= "questionb2">
+                A pirate raping any female captives.
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="punishment" value="deserting" id= "questionb3">
+                A pirate deserting his squadron.
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="punishment" value="cheating" id= "questionb4">
+              A pirate cheating on his wife.
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="punishment" value="stealing_from_government" id= "questionb5">
+              A pirate stealing from a Government official.
+            </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="punishment" value="witholding_treasure" id= "questionb6">
+              A pirate withholding large amounts of treasure from the group.
+            </label>
+          </div>
+    </div>
+
+      <div class="form-group">
+        <label>Which movie in this list contained a reference to Ching Shih?</label>
+          <select name="cultureReference" size="8" class="form-control">
+              <option id= "Hook" >Hook</option>
+              <option id= "ThePrincessBride">The Princess Bride</option>
+              <option id= "TheBuccaneer">The Buccaneer</option>
+              <option id= "TheCrimsonPirate">The Crimson Pirate</option>
+              <option id= "TreasureIsland">Treasure Island</option>
+              <option id= "PiratesoftheCaribbean">Pirates of the Caribbean</option>
+              <option id= "ThePirateofPenzance">The Pirates of Penzance</option>
+              <option id= "AnneoftheIndies">Anne of the Indies</option>
+            </select>
+      </div>
+
+  <div class="form-group">
+      <label for = "qPower">
+        In your own words, explain how Ching Shih rose to power after the death of Ching I.
+      </label>
+      <textarea name="power" id="qPower" class="form-control">
+      </textarea>
+    </div>
+
+  <div class="form-group">
+      <input type="submit" value="Submit the Quiz">
+      <input type= "reset" value= "Start Over">
+    </div>
+
+    </form>  
+  </section>
+  </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
